@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.invalid-input{
+  color:red;
+  display:block;
+  margin-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-row th, .product-row td{
+    padding: 10px;
+    border: 1px solid #4f6e5b;
+    text-align: left;
+}
+
+.product-row td{
+  font-size: 13px;
+}
+
+.no-record-found td{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.delete-btn{
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(211, 14, 14);
+  color:white;
+  margin-left: 5px;
+}
+
+
+.footer{
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #4f6e5b;
+  text-align: center;
+  padding: 10px;
+  color:#fff;
+}

@@ -1,0 +1,45 @@
+.container{
+  width: 100%; 
+}
+
+.content-box{
+    width: 500px;
+    margin: 80px auto;
+}
+
+.form-box{
+    padding: 15px 0;
+}
+
+.form-box label{
+    display: block;
+    font-weight: 550;
+    padding-top: 10px;
+}
+
+.inputBox{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    outline: 0;
+}
+
+.register-btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: rgb(84 169 224);
+    border-radius: 10px;
+    transition:  .3s;
+}
+
+.register-btn:active{
+    background-color: rgb(58, 115, 153);
+}
+
+.register-switch{
+    font-size: 13px;
+    text-align: center;
+}
